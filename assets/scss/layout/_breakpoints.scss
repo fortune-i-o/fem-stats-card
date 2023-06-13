@@ -1,0 +1,35 @@
+@use "../util/" as *;
+
+@media (max-width: 63.123em) {
+  .card {
+    margin: 2rem 0 1.5rem;
+    max-width: 25em;
+  }
+
+  .attribution {
+    margin-bottom: 1rem;
+  }
+}
+
+// Desktop Layout
+@media (min-width: 63.125em) {
+  .card {
+    @include flex(flex-start, stretch);
+    flex-direction: row-reverse;
+    margin: 1.2rem 0;
+    text-align: left;
+
+    &__info {
+      @include flex(space-between, flex-start);
+      max-width: 32rem;
+      padding: 3.8125rem 3.6875rem 3.34375rem 4.1875rem;
+    }
+
+    &__stats {
+      @include flex(space-between, center);
+      column-gap: 3.2rem;
+      flex-direction: row;
+      width: 90%;
+    }
+  }
+}

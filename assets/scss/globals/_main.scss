@@ -1,0 +1,82 @@
+@use "../util/" as *;
+
+.card {
+  background: var(--clr-primary-700);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: min(calc(100% - 3rem), 62em);
+
+  &__image {
+    background: var(--clr-accent);
+  }
+
+  &__info {
+    @include flex(center, center);
+    color: var(--clr-neutral-300);
+    flex-direction: column;
+    padding: 2rem 2.4rem;
+  }
+
+  &__title {
+    font-size: clamp(1rem, calc(1.5rem + 0.8vw), 2.2rem);
+
+    &--highlight {
+      color: var(--clr-accent);
+    }
+  }
+
+  &__description {
+    color: var(--clr-neutral-200);
+    font-size: clamp(0.65rem, calc(0.84rem + 0.1vw), 1.5rem);
+    font-weight: 200;
+    line-height: 1.7;
+    margin-top: 1.5rem;
+    max-width: 40ch;
+  }
+
+  &__stats {
+    @include flex(space-between, center);
+    flex-direction: column;
+    margin-top: 1.85rem;
+    row-gap: 1.8rem;
+  }
+
+  &__stat {
+    &-num {
+      font-weight: 700;
+    }
+
+    &-lead {
+      color: var(--clr-neutral-100);
+      font-family: var(--ff-lexend-deca);
+      font-size: 0.82rem;
+      letter-spacing: 1px;
+      margin-top: 0.3rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.attribution {
+  color: var(--clr-neutral-300);
+  font-family: var(--ff-lexend-deca);
+  font-size: clamp(0.65rem, calc(0.84rem + 0.1vw), 1.5rem);
+  text-align: center;
+  width: 80%;
+
+  a {
+    border-radius: 5px;
+    color: hsl(277deg 75% 72%);
+    outline-offset: 3px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 1px solid hsl(277, 75%, 72%);
+    }
+  }
+}
