@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- **Solution:** [Link](https://link)
-- **Live Site:** [Link](https://link)
+- **Solution:** [frontendmentor.io/solutions/stats-preview-card-component-scss-css-flexbox-DSHimVXlpu](https://www.frontendmentor.io/solutions/stats-preview-card-component-scss-css-flexbox-DSHimVXlpu)
+- **Live Site:** [fem-stats-card.pages.dev](https://fem-stats-card.pages.dev/)
 
 ## My process
 
