@@ -16,6 +16,10 @@ body {
   background: var(--clr-primary-900);
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   display: block;
   mix-blend-mode: multiply;

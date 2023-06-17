@@ -26,6 +26,10 @@ body {
   background: var(--clr-primary-900);
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   display: block;
   mix-blend-mode: multiply;
@@ -74,6 +78,8 @@ img {
   row-gap: 1.8rem;
 }
 .card__stat-num {
+  display: block;
+  font-size: 1.65rem;
   font-weight: 700;
 }
 .card__stat-lead {
