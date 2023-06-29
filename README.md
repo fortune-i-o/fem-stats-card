@@ -10,8 +10,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Technology Used](#technology-used)
-  - [Folder Structure](#folder-structure)
-  - [Compiling SASS](#compiling-sass)
+  - [What I Learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -44,81 +44,20 @@ This project was built using the following frontend technologies and methodologi
 - **BEM (Block Element Modifier):** To create modular, reusable, and maintainable CSS code.
 - **Mobile-first workflow:** To ensure a better user experience on smaller screens and devices.
 
-### Folder Structure
+### What I learned
 
-```markdown
-./
-├─ assets/
-│ ├─ css/
-│ ├─ images/
-│ └─ scss/
-│   ├─ globals/
-│   ├─ layout/
-│   ├─ util/
-│   └─ style.scss
-├─ screenshots/
-├─ README.md
-└─ index.html
-```
+During the development of this project, I gained knowledge and experience in utilizing the `mix-blend-mode` property to create overlay effects on images. This property allowed me to blend and combine the colors of overlapping elements to achieve visually appealing effects.
 
-### Compiling SASS
+### Useful resources
 
-If you're new to SASS or need a quick refresher, this guide will walk you through the process of compiling SASS code into CSS for your vanilla HTML project.
+Here are some resources that proved valuable in understanding and implementing the `mix-blend-mode` property:
 
-#### Prerequisites
+- [MDN web docs - mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode): The MDN web docs provided comprehensive information about the `mix-blend-mode` property, including its syntax, available values, and examples. This resource deepened my understanding of how to use this property effectively.
 
-Before you start, make sure you have Node.js and NPM installed on your machine. If you don't have them installed, you can download them from [here](https://nodejs.org/en/).
+- [SASS documentation](https://sass-lang.com/documentation): The official SASS documentation served as a valuable reference for understanding the syntax, features, and capabilities of SASS.
 
-#### Installation
-
-Once you have Node.js and NPM installed, you can install SASS by running the following command in your terminal:
-
-```bash
-npm install -g sass
-```
-
-#### Usage
-
-#### Step 1: Create a SASS file
-
-Create a new SASS file in your project's `assets/scss` directory. You can use `style.scss` as your starting point.
-
-#### Step 2: Write your SASS code
-
-Write your SASS code in the SASS file you created in **step 1**. For example:
-
-```scss
-$primary-color: #3d3d3d;
-
-body {
-  background-color: $primary-color;
-}
-```
-
-#### Step 3: Compile your SASS code
-
-Compile your SASS code into CSS by running the following command in your terminal:
-
-```bash
-sass assets/scss/style.scss:assets/css/style.css
-```
-
-This command tells the SASS compiler to compile the `style.scss` file in the `assets/scss` directory and output the resulting CSS into the `assets/css` directory as `style.css`.
-
-#### Step 4: Link your CSS file
-
-Link your compiled CSS file in your HTML file by adding the following code to the `<head>` section:
-
-```html
-<link rel="stylesheet" href="assets/css/style.css" />
-```
-
-#### Step 5: Re-compile your SASS code
-
-Whenever you make changes to your SASS file, you will need to recompile it by running the sass command again. This will update the compiled CSS file and ensure that your changes are reflected in the browser.
-
-That's it! Now you know how to compile SASS code into CSS for your vanilla HTML project. If you have any questions or issues, feel free to refer to the official [SASS documentation](https://sass-lang.com/documentation)
+By leveraging these resources and continuing to explore new concepts and techniques, I aim to further enhance my skills and create visually captivating designs in future projects.
 
 ## Author
 
-This project was created by **Fortune Iyoha**, a passionate web developer. If you want to connect with me or view more of my projects, you can visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/fortune-i-o) or follow me on [Twitter](https://twitter.com/fortuneiyoha) for updates and web development discussions.
+This project was created by **Fortune Iyoha**. If you want to connect with me or view more of my projects, you can visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/fortune-i-o) or follow me on [Twitter](https://twitter.com/fortuneiyoha) for updates and web development discussions.
